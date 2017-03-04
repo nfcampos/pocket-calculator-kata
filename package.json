@@ -7,12 +7,16 @@
     "test": "test"
   },
   "scripts": {
-    "test": "cucumber-js"
+    "test": "cucumber-js",
+    "jest": "jest"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
   "dependencies": {
     "cucumber": "^2.0.0-rc.7"
+  },
+  "devDependencies": {
+    "jest": "~19.0.2"
   }
 }
